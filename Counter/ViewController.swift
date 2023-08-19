@@ -9,10 +9,27 @@ import UIKit
 
 class ViewController: UIViewController {
     var CounterNum = 0
+    
     @IBOutlet weak var CounterText: UILabel!
     
-    @IBAction func CounterButton(_ sender: Any) {
+    @IBOutlet weak var HistoryText: UITextView!
+    @IBAction func PlusButton(_ sender: Any) {
         CounterNum += 1
+        HistoryText.text.append("\n" + DateFormat() + " : " + " Значение изменено на +1")
+        CounterText.text = String(CounterNum)
+    }
+    @IBAction func MinusButton(_ sender: Any) {
+        if CounterNum >= 1 {
+            CounterNum -= 1
+            HistoryText.text.append("\n" + DateFormat() + " : " + " Значение изменено на -1")
+            CounterText.text = String(CounterNum)
+        } else {
+            HistoryText.text.append("\n" + DateFormat() + " : " + "Попытка уменьшить значение счётчика ниже 0")
+        }
+    }
+    @IBAction func ZeroingButton(_ sender: UIButton) {
+        CounterNum = 0
+        HistoryText.text.append("\n" + DateFormat() + " : " + " Значение сброшено")
         CounterText.text = String(CounterNum)
     }
     override func viewDidLoad() {
