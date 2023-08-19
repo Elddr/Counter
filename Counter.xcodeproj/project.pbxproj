@@ -16,6 +16,7 @@
 		60EE0F992A87D11B007474E9 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE0F982A87D11B007474E9 /* CounterTests.swift */; };
 		60EE0FA32A87D11B007474E9 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE0FA22A87D11B007474E9 /* CounterUITests.swift */; };
 		60EE0FA52A87D11B007474E9 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE0FA42A87D11B007474E9 /* CounterUITestsLaunchTests.swift */; };
+		60EE0FB22A90D658007474E9 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE0FB12A90D658007474E9 /* DateFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		60EE0F9E2A87D11B007474E9 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EE0FA22A87D11B007474E9 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		60EE0FA42A87D11B007474E9 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60EE0FB12A90D658007474E9 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				60EE0F812A87D11A007474E9 /* AppDelegate.swift */,
 				60EE0F832A87D11A007474E9 /* SceneDelegate.swift */,
 				60EE0F852A87D11A007474E9 /* ViewController.swift */,
+				60EE0FB12A90D658007474E9 /* DateFormat.swift */,
 				60EE0F872A87D11A007474E9 /* Main.storyboard */,
 				60EE0F8A2A87D11B007474E9 /* Assets.xcassets */,
 				60EE0F8C2A87D11B007474E9 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				60EE0F862A87D11A007474E9 /* ViewController.swift in Sources */,
 				60EE0F822A87D11A007474E9 /* AppDelegate.swift in Sources */,
+				60EE0FB22A90D658007474E9 /* DateFormat.swift in Sources */,
 				60EE0F842A87D11A007474E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
